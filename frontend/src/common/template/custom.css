@@ -1,0 +1,68 @@
+button {
+    margin-left: 5px;
+}
+.main-footer {
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+}
+.table-actions {
+    width: 150px;
+}
+
+.concluido {
+    text-decoration:line-through;
+    background-color: #f17373;
+    color: #fff;
+    opacity: 0.8;
+  }
+  
+  .tableActions {
+    width: 220px;
+    padding: 10px;
+  }
+  .todoForm {
+    padding-bottom: 10px;
+  }
+  .tipoForm {
+    padding-bottom: 10px;
+  }
+  .listForm {
+    padding-bottom: 10px;
+  }
+  .descricao {
+    margin-bottom: 10px;
+  }
+.aberto {
+    color: #ffffff;
+    background-color: #45ee5c;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    
+}
+.vencido {
+    color: #ffffff;
+    background-color: #f05959;
+}
+.bloqueado {
+    color: #ffffff;
+    background-color: #2e302e;
+  }
